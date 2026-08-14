@@ -1,0 +1,30 @@
+[
+  {
+    "id": "photography",
+    "title": "Landscape & Urban Photography",
+    "icon": "camera",
+    "description": "Documenting urban architecture, natural lighting, and alpine landscapes with a 35mm prime lens.",
+    "highlights": ["35mm Film & Digital", "Golden Hour Studies", "Visual Storytelling"]
+  },
+  {
+    "id": "cycling-running",
+    "title": "Distance Running & Gravel Cycling",
+    "icon": "activity",
+    "description": "Exploring Ontario trail networks and endurance training across gravel and road routes.",
+    "highlights": ["Half-Marathon Training", "Gravel Bikepacking", "Outdoor Exploration"]
+  },
+  {
+    "id": "open-source",
+    "title": "Open Source Tooling & Toolcraft",
+    "icon": "cpu",
+    "description": "Crafting terminal utilities, automation scripts, and ergonomic command-line workflows.",
+    "highlights": ["Zsh & Neovim Configs", "Rust Micro-tools", "Workflow Automation"]
+  },
+  {
+    "id": "reading-coffee",
+    "title": "Espresso & Non-Fiction Literature",
+    "icon": "coffee",
+    "description": "Dialing in light-roast single origin espressos while reading history of science, philosophy of mind, and complexity theory.",
+    "highlights": ["Manual Lever Espresso", "Philosophy of Computing", "Complexity Science"]
+  }
+]

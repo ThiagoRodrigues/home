@@ -1,0 +1,49 @@
+{
+  "name": "Thiago Rodrigues",
+  "title": "Researcher & Software Engineer",
+  "affiliation": "University of Toronto",
+  "location": "Toronto, ON, Canada",
+  "email": "thiago.rodrigues@utoronto.ca",
+  "bio": "Building robust computational tools, reproducible scientific workflows, and elegant web interfaces. Focused on high-performance data systems and research engineering.",
+  "status": {
+    "available": true,
+    "text": "Open to research collaborations & talks"
+  },
+  "avatar": "assets/images/profile.jpg",
+  "socials": [
+    {
+      "platform": "GitHub",
+      "url": "https://github.com/ThiagoRodrigues",
+      "handle": "@ThiagoRodrigues",
+      "icon": "github"
+    },
+    {
+      "platform": "LinkedIn",
+      "url": "https://linkedin.com/in/thiagorodrigues",
+      "handle": "thiagorodrigues",
+      "icon": "linkedin"
+    },
+    {
+      "platform": "Google Scholar",
+      "url": "https://scholar.google.com",
+      "handle": "Thiago Rodrigues",
+      "icon": "scholar"
+    },
+    {
+      "platform": "ORCID",
+      "url": "https://orcid.org",
+      "handle": "0000-0002-XXXX-XXXX",
+      "icon": "orcid"
+    },
+    {
+      "platform": "Email",
+      "url": "mailto:thiago.rodrigues@utoronto.ca",
+      "handle": "thiago.rodrigues@utoronto.ca",
+      "icon": "email"
+    }
+  ],
+  "quickLinks": [
+    { "label": "Download CV", "url": "#cv", "primary": true, "icon": "file-text" },
+    { "label": "Get in Touch", "url": "mailto:thiago.rodrigues@utoronto.ca", "primary": false, "icon": "mail" }
+  ]
+}

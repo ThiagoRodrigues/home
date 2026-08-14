@@ -1,0 +1,130 @@
+/**
+ * ==========================================================================
+ * THEME CONFIGURATION & DESIGN SYSTEM TOKENS
+ * ==========================================================================
+ * All colors, typography, spacing, shadows, and radii are centralized here.
+ * Modify these CSS custom properties to change the global appearance.
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&display=swap');
+
+:root {
+  /* --- PALETTE: Warm Off-White / Sophisticated Neutral --- */
+  --bg-page: #faf9f5;             /* Warm alabaster canvas */
+  --bg-page-subtle: #f3f1ea;      /* Slightly deeper warm neutral */
+  --bg-surface: #ffffff;          /* Pure white card surface */
+  --bg-surface-elevated: #ffffff; /* Elevated card surface */
+  --bg-surface-hover: #f7f6f1;    /* Subtle warm hover state */
+  --bg-tag: #ede9e1;              /* Pill badge background */
+  --bg-tag-active: #e2ded4;       /* Active badge state */
+  --bg-code: #f1ede5;             /* Code block / inline code */
+  --bg-badge-status: #e6f4ea;     /* Available status pill */
+  --text-badge-status: #137333;   /* Available status text */
+  
+  /* --- BORDERS & DIVIDERS --- */
+  --border-subtle: #e8e5dc;       /* Hairline card border */
+  --border-muted: #dad6cc;        /* Stronger divider border */
+  --border-focus: #2c5985;        /* Focused ring */
+
+  /* --- TYPOGRAPHY COLORS --- */
+  --text-primary: #1e2227;        /* Deep charcoal ink */
+  --text-secondary: #57606a;      /* Soft slate neutral */
+  --text-muted: #889098;          /* Light slate metadata */
+  --text-inverse: #ffffff;        /* White text for dark buttons */
+
+  /* --- ACCENTS & BRANDING --- */
+  --accent-primary: #2b5784;      /* Academic slate blue */
+  --accent-primary-hover: #1e3f61;/* Darker slate hover */
+  --accent-warm: #b85d19;         /* Terracotta highlight */
+  --accent-warm-subtle: #fdf3eb;  /* Warm highlight tint */
+  --accent-glow: rgba(43, 87, 132, 0.12);
+
+  /* --- TYPOGRAPHY SCALE --- */
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  --font-serif: 'Newsreader', Georgia, Cambria, 'Times New Roman', serif;
+  --font-mono: 'JetBrains Mono', SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+
+  --text-xs: 0.75rem;    /* 12px */
+  --text-sm: 0.875rem;   /* 14px */
+  --text-base: 1rem;     /* 16px */
+  --text-lg: 1.125rem;   /* 18px */
+  --text-xl: 1.25rem;    /* 20px */
+  --text-2xl: 1.5rem;    /* 24px */
+  --text-3xl: 1.875rem;  /* 30px */
+  --text-4xl: 2.25rem;   /* 36px */
+  --text-5xl: 3rem;      /* 48px */
+
+  --leading-tight: 1.2;
+  --leading-snug: 1.375;
+  --leading-normal: 1.6;
+  --leading-relaxed: 1.75;
+
+  /* --- SPACING & LAYOUT --- */
+  --container-max-width: 980px;
+  --container-padding: 1.5rem;
+  --header-height: 4.25rem;
+  
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.25rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-10: 2.5rem;
+  --space-12: 3rem;
+  --space-16: 4rem;
+  --space-20: 5rem;
+  --space-24: 6rem;
+
+  /* --- ELEVATION & SHADOWS --- */
+  --shadow-xs: 0 1px 2px rgba(27, 31, 35, 0.04);
+  --shadow-sm: 0 2px 6px rgba(27, 31, 35, 0.05), 0 1px 2px rgba(27, 31, 35, 0.03);
+  --shadow-md: 0 6px 16px rgba(27, 31, 35, 0.06), 0 2px 4px rgba(27, 31, 35, 0.04);
+  --shadow-lg: 0 12px 28px rgba(27, 31, 35, 0.08), 0 4px 8px rgba(27, 31, 35, 0.04);
+
+  /* --- BORDER RADII --- */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
+  --radius-full: 9999px;
+
+  /* --- TRANSITIONS --- */
+  --transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-base: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-smooth: 350ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* --- DARK THEME OVERRIDES (Optional / Switchable) --- */
+[data-theme="dark"] {
+  --bg-page: #121417;
+  --bg-page-subtle: #191c21;
+  --bg-surface: #1c2026;
+  --bg-surface-elevated: #22272f;
+  --bg-surface-hover: #262c35;
+  --bg-tag: #272d36;
+  --bg-tag-active: #323945;
+  --bg-code: #252b34;
+  --bg-badge-status: #12281b;
+  --text-badge-status: #4ade80;
+  
+  --border-subtle: #2d333d;
+  --border-muted: #3c4452;
+  --border-focus: #5b96d0;
+
+  --text-primary: #f0f3f6;
+  --text-secondary: #a0abb8;
+  --text-muted: #6e7987;
+  --text-inverse: #121417;
+
+  --accent-primary: #5c9dd6;
+  --accent-primary-hover: #81b9eb;
+  --accent-warm: #e07d3b;
+  --accent-warm-subtle: #2d1e15;
+  --accent-glow: rgba(92, 157, 214, 0.18);
+
+  --shadow-xs: 0 1px 2px rgba(0, 0, 0, 0.3);
+  --shadow-sm: 0 2px 6px rgba(0, 0, 0, 0.35);
+  --shadow-md: 0 6px 16px rgba(0, 0, 0, 0.4);
+  --shadow-lg: 0 12px 28px rgba(0, 0, 0, 0.5);
+}

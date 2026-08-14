@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Primary Meta Tags -->
+  <title>Thiago Rodrigues | Researcher & Software Engineer</title>
+  <meta name="title" content="Thiago Rodrigues | Researcher & Software Engineer">
+  <meta name="description" content="Personal and professional website of Thiago Rodrigues. Research in computational systems, open-source software, and robust data architectures.">
+  <meta name="author" content="Thiago Rodrigues">
+  <meta name="keywords" content="Thiago Rodrigues, Researcher, Software Engineer, University of Toronto, Open Source, Data Systems, Neuroimaging, Python, GitHub">
+  <meta name="theme-color" content="#faf9f5">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://thiagorodrigues.github.io/home/">
+  <meta property="og:title" content="Thiago Rodrigues | Researcher & Software Engineer">
+  <meta property="og:description" content="Personal and professional portfolio, research repositories, and publications of Thiago Rodrigues.">
+  <meta property="og:image" content="assets/images/profile.jpg">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://thiagorodrigues.github.io/home/">
+  <meta property="twitter:title" content="Thiago Rodrigues | Researcher & Software Engineer">
+  <meta property="twitter:description" content="Personal and professional portfolio, research repositories, and publications of Thiago Rodrigues.">
+  <meta property="twitter:image" content="assets/images/profile.jpg">
+
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220%22%20width=%22100%22%20height=%22100%22><text y=%22.9em%22 font-size=%2290%22>⚡</text></svg>">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <div class="site-wrapper">
+    <!-- Navigation Header -->
+    <header class="site-header">
+      <div class="nav-container">
+        <a href="index.html" class="brand-link" id="brand-logo" aria-label="Thiago Rodrigues Home">
+          <span class="brand-dot"></span>
+          <span>Thiago Rodrigues</span>
+        </a>
+
+        <nav class="nav-links" id="desktop-nav" aria-label="Main navigation">
+          <a href="#about" class="nav-link active">About</a>
+          <a href="#repositories" class="nav-link">Repositories</a>
+          <a href="#interests" class="nav-link">Interests</a>
+          <a href="research/index.html" class="nav-link">Research</a>
+          <a href="teaching/index.html" class="nav-link">Teaching</a>
+          <a href="blog/index.html" class="nav-link">Blog</a>
+        </nav>
+
+        <div class="nav-actions">
+          <!-- Theme Toggle Button -->
+          <button class="theme-toggle-btn" id="theme-toggle" aria-label="Toggle dark/light mode" title="Toggle theme">
+            <!-- Sun Icon (shown in dark mode) -->
+            <svg class="sun-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="5"></circle>
+              <line x1="12" y1="1" x2="12" y2="3"></line>
+              <line x1="12" y1="21" x2="12" y2="23"></line>
+              <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+              <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+              <line x1="1" y1="12" x2="3" y2="12"></line>
+              <line x1="21" y1="12" x2="23" y2="12"></line>
+              <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+              <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+            </svg>
+            <!-- Moon Icon (shown in light mode) -->
+            <svg class="moon-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+          </button>
+
+          <!-- Mobile Hamburger Toggle -->
+          <button class="mobile-nav-toggle" id="mobile-nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="3" y1="12" x2="21" y2="12"></line>
+              <line x1="3" y1="6" x2="21" y2="6"></line>
+              <line x1="3" y1="18" x2="21" y2="18"></line>
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <!-- Mobile Dropdown Navigation -->
+      <div class="mobile-menu" id="mobile-menu">
+        <a href="#about" class="nav-link">About</a>
+        <a href="#repositories" class="nav-link">Repositories</a>
+        <a href="#interests" class="nav-link">Interests</a>
+        <a href="research/index.html" class="nav-link">Research & Publications</a>
+        <a href="teaching/index.html" class="nav-link">Teaching & Mentorship</a>
+        <a href="blog/index.html" class="nav-link">Blog & Notes</a>
+      </div>
+    </header>
+
+    <!-- Main Content Container -->
+    <main class="main-content">
+      <!-- Hero Section -->
+      <section class="hero-section" id="about">
+        <div class="hero-grid">
+          <div class="hero-content">
+            <div class="status-badge" id="status-badge">
+              <span class="status-pulse"></span>
+              <span id="status-text">Open to research collaborations & talks</span>
+            </div>
+
+            <h1 class="hero-title" id="profile-name">Thiago Rodrigues</h1>
+            
+            <p class="hero-subtitle" id="profile-title">
+              Researcher & Software Engineer <span class="hero-affiliation">@ University of Toronto</span>
+            </p>
+
+            <p class="hero-bio" id="profile-bio">
+              Building robust computational tools, reproducible scientific workflows, and elegant web interfaces. Focused on high-performance data systems and research engineering.
+            </p>
+
+            <div class="hero-actions">
+              <a href="mailto:thiago.rodrigues@utoronto.ca" class="btn btn-primary" id="cta-contact">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                <span>Get in Touch</span>
+              </a>
+
+              <button class="btn btn-secondary" data-copy-text="thiago.rodrigues@utoronto.ca" data-toast-msg="Email copied to clipboard!" id="cta-copy-email">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                <span>Copy Email</span>
+              </button>
+
+              <a href="https://github.com/ThiagoRodrigues" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" id="cta-github">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                <span>GitHub Profile</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="hero-image-wrapper">
+            <img src="assets/images/profile.jpg" alt="Thiago Rodrigues" class="profile-avatar" id="profile-avatar-img" width="220" height="220">
+          </div>
+        </div>
+      </section>
+
+      <!-- Socials & Academic Links Bar -->
+      <nav class="socials-bar" id="socials-list" aria-label="Social and academic profiles">
+        <a href="https://github.com/ThiagoRodrigues" target="_blank" rel="noopener noreferrer" class="social-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+          <span>GitHub</span>
+        </a>
+        <a href="https://linkedin.com/in/thiagorodrigues" target="_blank" rel="noopener noreferrer" class="social-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+          <span>LinkedIn</span>
+        </a>
+        <a href="https://scholar.google.com" target="_blank" rel="noopener noreferrer" class="social-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"></path><path d="M6 12v5c3 3 9 3 12 0v-5"></path></svg>
+          <span>Google Scholar</span>
+        </a>
+        <a href="https://orcid.org" target="_blank" rel="noopener noreferrer" class="social-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="12"></line><line x1="12" y1="16" x2="12.01" y2="16"></line></svg>
+          <span>ORCID</span>
+        </a>
+        <a href="mailto:thiago.rodrigues@utoronto.ca" class="social-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+          <span>Email</span>
+        </a>
+      </nav>
+
+      <!-- Featured Work & Repositories Section -->
+      <section class="section" id="repositories">
+        <div class="section-header">
+          <div>
+            <h2 class="section-title">
+              <span>Featured Work & Repositories</span>
+              <span class="section-badge">Code & Systems</span>
+            </h2>
+            <p class="section-desc">Open-source software, scientific computing pipelines, and software tools.</p>
+          </div>
+
+          <!-- Search Box -->
+          <div class="search-box-wrapper">
+            <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+            <input type="text" id="project-search" class="search-input" placeholder="Search projects by topic, language, keyword..." aria-label="Search projects">
+          </div>
+        </div>
+
+        <!-- Tag Filter Chips -->
+        <div class="filter-bar" id="filter-bar">
+          <button class="tag-pill active" data-tag="all">All Projects</button>
+        </div>
+
+        <!-- Projects Grid -->
+        <div class="projects-grid" id="projects-grid">
+          <!-- Fallback / Static Projects will hydrate smoothly -->
+          <article class="project-card">
+            <div>
+              <div class="project-top">
+                <div class="project-title-area">
+                  <span class="project-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+                  </span>
+                  <h3 class="project-title">NeuroFlow-Pipelines</h3>
+                </div>
+                <div class="project-links">
+                  <a href="https://github.com/ThiagoRodrigues/home" target="_blank" rel="noopener noreferrer" class="project-link-btn" title="View Source on GitHub">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                  </a>
+                </div>
+              </div>
+              <p class="project-desc">High-throughput reproducible neuroimaging pipeline orchestrator with containerized execution and provenance tracking.</p>
+            </div>
+            <div class="project-meta">
+              <div class="project-tags">
+                <span class="card-tag">Python</span>
+                <span class="card-tag">Docker</span>
+                <span class="card-tag">HPC</span>
+              </div>
+              <div class="project-stats">
+                <span class="lang-indicator">
+                  <span class="lang-dot" style="background-color: #3572A5;"></span>
+                  Python
+                </span>
+                <span class="stat-item">★ 142</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- Hobbies & Personal Interests Section -->
+      <section class="hobbies-section" id="interests">
+        <div class="section-header">
+          <div>
+            <h2 class="section-title">
+              <span>Hobbies & Side Pursuits</span>
+              <span class="section-badge">Life & Exploration</span>
+            </h2>
+            <p class="section-desc">Personal interests, creative pursuits, and outdoor exploration beyond academic research.</p>
+          </div>
+        </div>
+
+        <div class="hobbies-grid" id="hobbies-grid">
+          <!-- Fallback Cards -->
+          <div class="hobby-card">
+            <div class="hobby-header">
+              <div class="hobby-icon-wrap">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path><circle cx="12" cy="13" r="4"></circle></svg>
+              </div>
+              <h3 class="hobby-title">Landscape & Urban Photography</h3>
+            </div>
+            <p class="hobby-desc">Documenting architecture and natural lighting with prime lenses.</p>
+            <div class="hobby-highlights">
+              <span class="hobby-highlight-pill">35mm Film</span>
+              <span class="hobby-highlight-pill">Golden Hour</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Modular Exploration Hub -->
+      <section class="sections-banner">
+        <h2 class="section-title">Explore Dedicated Sections</h2>
+        <p class="section-desc">Browse in-depth publications, teaching materials, course notes, and essays.</p>
+
+        <div class="sections-grid">
+          <a href="research/index.html" class="section-portal-card">
+            <div class="portal-title">
+              <span>Research & Papers</span>
+              <span>→</span>
+            </div>
+            <p class="portal-desc">Peer-reviewed publications, preprints, conference proceedings, and ongoing computational studies.</p>
+          </a>
+
+          <a href="teaching/index.html" class="section-portal-card">
+            <div class="portal-title">
+              <span>Teaching & Mentorship</span>
+              <span>→</span>
+            </div>
+            <p class="portal-desc">Undergraduate and graduate course materials, student workshops, and office hour resources.</p>
+          </a>
+
+          <a href="blog/index.html" class="section-portal-card">
+            <div class="portal-title">
+              <span>Blog & Notes</span>
+              <span>→</span>
+            </div>
+            <p class="portal-desc">Technical essays, computing tips, scientific tool reviews, and personal notes.</p>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+      <div class="footer-container">
+        <div class="footer-left">
+          <span>&copy; <span id="current-year">2026</span> Thiago Rodrigues. All rights reserved.</span>
+          <span style="font-size: 0.8rem; color: var(--text-muted);">Hosted on GitHub Pages &bull; Built with modern web standards</span>
+        </div>
+
+        <div class="footer-right">
+          <a href="#about" class="back-to-top" aria-label="Back to top of page">
+            <span>Back to top</span>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="18 15 12 9 6 15"></polyline></svg>
+          </a>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <!-- Scripts -->
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/render.js"></script>
+</body>
+</html>

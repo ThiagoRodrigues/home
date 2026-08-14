@@ -1,0 +1,80 @@
+[
+  {
+    "id": "neuro-flow",
+    "title": "NeuroFlow-Pipelines",
+    "description": "High-throughput reproducible neuroimaging pipeline orchestrator with containerized execution, provenance tracking, and cloud export.",
+    "language": "Python",
+    "languageColor": "#3572A5",
+    "stars": 142,
+    "forks": 28,
+    "tags": ["Neuroimaging", "Workflow", "Python", "Docker", "HPC"],
+    "githubUrl": "https://github.com/ThiagoRodrigues/home",
+    "demoUrl": "https://github.com/ThiagoRodrigues",
+    "featured": true
+  },
+  {
+    "id": "quarto-academic-theme",
+    "title": "academic-minimalist-theme",
+    "description": "An off-white, typography-first publishing theme for Quarto and static web platforms tailored for academic researchers and technical writers.",
+    "language": "CSS / HTML",
+    "languageColor": "#563d7c",
+    "stars": 89,
+    "forks": 15,
+    "tags": ["Web Design", "Design System", "CSS", "Quarto", "Theme"],
+    "githubUrl": "https://github.com/ThiagoRodrigues/home",
+    "demoUrl": "https://github.com/ThiagoRodrigues",
+    "featured": true
+  },
+  {
+    "id": "distributed-graph-engine",
+    "title": "distributed-graph-analytics",
+    "description": "Scalable graph processing engine implementing memory-efficient traversal and topological clustering algorithms for large-scale networks.",
+    "language": "C++ / Python",
+    "languageColor": "#f34b7d",
+    "stars": 67,
+    "forks": 12,
+    "tags": ["Graph Theory", "Distributed Systems", "Algorithms", "C++"],
+    "githubUrl": "https://github.com/ThiagoRodrigues/home",
+    "demoUrl": "https://github.com/ThiagoRodrigues",
+    "featured": true
+  },
+  {
+    "id": "scientific-dataset-hub",
+    "title": "open-science-data-hub",
+    "description": "Metadata validator, dataset versioning tool, and FAIR-compliant schema generator for open-access scientific repositories.",
+    "language": "TypeScript",
+    "languageColor": "#3178c6",
+    "stars": 54,
+    "forks": 9,
+    "tags": ["Open Science", "Metadata", "TypeScript", "FAIR Data"],
+    "githubUrl": "https://github.com/ThiagoRodrigues/home",
+    "demoUrl": "https://github.com/ThiagoRodrigues",
+    "featured": true
+  },
+  {
+    "id": "bio-stat-models",
+    "title": "stat-bio-infer",
+    "description": "Bayesian inference framework for hierarchical longitudinal modeling in clinical and behavioral biomedical cohorts.",
+    "language": "R / Stan",
+    "languageColor": "#198CE7",
+    "stars": 38,
+    "forks": 7,
+    "tags": ["Bayesian", "Statistics", "R", "Stan", "Biomedical"],
+    "githubUrl": "https://github.com/ThiagoRodrigues/home",
+    "demoUrl": "https://github.com/ThiagoRodrigues",
+    "featured": false
+  },
+  {
+    "id": "home-web",
+    "title": "home",
+    "description": "Source code for this clean, responsive, neutral personal website built with vanilla modern web standards and automated GitHub Pages CI/CD.",
+    "language": "HTML / CSS / JS",
+    "languageColor": "#e34c26",
+    "stars": 24,
+    "forks": 5,
+    "tags": ["Portfolio", "GitHub Pages", "Static Site", "Responsive"],
+    "githubUrl": "https://github.com/ThiagoRodrigues/home",
+    "demoUrl": "https://github.com/ThiagoRodrigues/home",
+    "featured": true
+  }
+]
